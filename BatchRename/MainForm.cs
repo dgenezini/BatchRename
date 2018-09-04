@@ -29,6 +29,8 @@ namespace BatchRename
             {
                 File.Move(FileItem.FileName, FileItem.NewFileName);
             }
+
+            btnClear_Click(null, null);
         }
 
         private void UpdateNewFileNames()
